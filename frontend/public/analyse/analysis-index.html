@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyse your Rank -> Because Every Rank Deserves the Right Choice</title>
+    <link rel="shortcut icon" href="./photo/favicon three-tap.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="analysis-style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet"/>
+    <script src="https://cdn.plot.ly/plotly-2.24.2.min.js"></script>
+</head>
+<body>
+    
+    <div id="fixed-image">
+
+    </div>
+    <div id="main">
+        <div id="page1">
+            <nav>
+                <img src="photo/Frame 8 (1)1.png" width="150px" 
+                    alt="">
+                <div id="nav-part2">
+                    <h4><a href="../aim/aim-index.html">Aim</a></h4>
+                    <h4 class="analysispage"><a href="../analyse/analysis-index.html">Analyse</a></h4>
+                    <h4><a href="../ask/ask-index.html">Ask</a></h4>
+                    <h4><a href="#" onclick="redirectToReact()">Account</a></h4>
+                </div>
+                <h3>Menu</h3>
+            </nav>
+            <div id="center">
+                <div id="right">
+                    <h1>Your JEE Rank, <br>
+                        Our Direction <br>
+                    </h1>
+                    <div id="arrow">
+                        <i class="ri-arrow-down-line"></i>
+                      </div>
+                </div>
+
+            </div>
+            <div id="hero-shape">
+                <div id="hero-1"></div>
+                <div id="hero-2"></div>
+                <div id="hero-3"></div>
+            </div>
+            <div id="graph-container">
+                <div id="chart" style="width: 100%; height: 550px;"></div>
+            </div>
+        </div>
+        <div id="page2">
+            <div id="moving-text">
+                <div class="con">
+                    <h1>INSIGHTS</h1>
+                    <div id="gola"></div>
+                    <h1>OPPORTUNITIES</h1>
+                    <div id="gola"></div>
+                    <h1>SUCCESS</h1>
+                    <div id="gola"></div>
+                </div>
+                <div class="con">
+                    <h1>INSIGHTS</h1>
+                    <div id="gola"></div>
+                    <h1>OPPORTUNITIES</h1>
+                    <div id="gola"></div>
+                    <h1>SUCCESS</h1>
+                    <div id="gola"></div>
+                </div>
+                <div class="con">
+                    <h1>INSIGHTS</h1>
+                    <div id="gola"></div>
+                    <h1>OPPORTUNITIES</h1>
+                    <div id="gola"></div>
+                    <h1>SUCCESS</h1>
+                    <div id="gola"></div>
+                </div>
+            </div>
+            <div id="page2-bottom">
+                <h1>Personalized Rank-Based Dashboard: Institutes, Branches & Categories in Just Three-Tap!</h1>
+                <div id="bottom-part2">
+                    <img src="photo/mockuuups-macbook-pro-mockup-on-textured-rock.png" alt="">
+                </div>
+            </div>
+            <div id="aibutton">
+                <h4><a href="https://drive.google.com/file/d/1tPlcXDWNpUxHLZ2nxinxDleATxru_kn8/view?usp=drive_link" target="_blank">Get Started Today!</a></h4>
+            </div>
+            <div id="gooey">
+            </div>
+        </div>
+        <div id="page3">
+            <div id="sec2">
+                <div class="chota-text" id="gol"></div>
+                <p>BEHIND THE DASHBOARD!</p>
+            </div>
+            <div id="elem-container">
+                <div id="elem" class="elem"
+                    data-image="photo/Institute%20Overview.jpg">
+                    <div class="overlay"></div>
+                    <h2>Institute Overview</h2>
+                </div>
+                <div class="elem"
+                    data-image="photo/Seat%20Availability.jpg">
+                    <div class="overlay"></div>
+                    <h2>Seat Availability</h2>
+                </div>
+                <div class="elem"
+                    data-image="photo/Branches%20Offered.png">
+                    <div class="overlay"></div>
+                    <h2>Branches Offered</h2>
+                </div>
+                <div class="elem"
+                    data-image="photo/Category-Wise%20Distribution.png">
+                    <div class="overlay"></div>
+                    <h2>Category-Wise Distribution</h2>
+                </div>
+                <div class="elem"
+                    data-image="photo/Gender-Based%20Statistics.jpg">
+                    <div class="overlay"></div>
+                    <h2>Gender-Based Statistics</h2>
+                </div>
+                <div class="elem"
+                    data-image="photo/Previous%20Year%20Average%20Ranks.png">
+                    <div class="overlay"></div>
+                    <h2>Previous Years' Average Ranks</h2>
+                </div>
+                <div class="elem"
+                    data-image="photo/Opening%20Ranks.png">
+                    <div class="overlay"></div>
+                    <h2>Opening Ranks</h2>
+                </div>
+                <div class="elem"
+                    data-image="photo/Closing%20Ranks.png">
+                    <div class="overlay"></div>
+                    <h2>Closing Ranks</h2>
+                </div>
+                <div id="mob-elem">
+                    <img src="photo/Institute%20Overview.jpg" alt="">
+                    <h2>Institute Overview</h2>
+                </div>
+                <div id="mob-elem">
+                    <img src="photo/Seat%20Availability.jpg" alt="">
+                    <h2>Seat Availability</h2>
+                </div>
+                <div id="mob-elem">
+                    <img src="photo/Branches%20Offered.png" alt="">
+                    <h2>Branches Offered</h2>
+                </div>
+                <div id="mob-elem">
+                    <img src="photo/Category-Wise%20Distribution.png" alt="">
+                    <h2>Category-Wise Distribution</h2>
+                </div>
+                <div id="mob-elem">
+                    <img src="photo/Gender-Based%20Statistics.jpg" alt="">
+                    <h2>Gender-Based Statistics</h2>
+                </div>
+                <div id="mob-elem">
+                    <img src="photo/Previous%20Year%20Average%20Ranks.png" alt="">
+                    <h2>Previous Years' Average Ranks</h2>
+                </div>
+                <div id="mob-elem">
+                    <img src="photo/Opening%20Ranks.png" alt="">
+                    <h2>Opening Ranks</h2>
+                </div>
+                <div id="mob-elem">
+                    <img src="photo/Closing%20Ranks.png" alt="">
+                    <h2>Closing Ranks</h2>
+                </div>
+            </div>
+        </div>
+        <div id="page3-1">
+            <div id="black-box">
+                <div id="tab-sec">
+                    <div id="tabs">
+                        <h2 id="Design">
+                           Rank-Based <br>Dashboard 
+                        </h2>
+                    </div>
+                    <div id="desc">
+                        <br> We turn your JEE rank into actionable insights, showcasing personalized college and branch options for your academic journey.
+                    </div>
+                    <div id="aibutton-3">
+                        <h4><a href="https://forms.gle/1ZLp5Gt9XALSBuXc7" target="_blank">My Hub</a></h4>
+                    </div>
+                </div>
+                <img id="page3-1-img" src="photo/mockuuups-floating-macbook-pro-14-inch-mockup-held-by-ropes-on-transparent-background.png" width="100%" height="100%">
+            </div>
+            <div class="space-btw-kala">
+                <h1><br></h1>
+            </div>
+            <div id="black-box-2">
+                <div id="tab-sec-2">
+                    <div id="tabs-2">
+                        <h2 id="Design-2">
+                            1:1 Mentorship
+                        </h2>
+                        <div id="aibutton-2">
+                            <h4><a href="https://forms.gle/AVBcCxMpztUKTFMo7" target="_blank">Get Your Mentor!</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <img id="page3-1-img2" src="photo/1-1 three-tap2.png" alt="">
+            </div>
+            <img id="mob-elem-black-box" src="photo/1-1 three-tap2.png" alt="">
+            <div class="space-btw-kala">
+                <h1><br></h1>
+            </div>
+            <div id="black-box-2">
+                <div id="tab-sec-2">
+                    <div id="tabs-2">
+                        <h2 id="Design-2-1">
+                            Analysis Sheet <br> 20-24
+                        </h2>
+                        <h2 id="Design-2-mob">
+                            Analysis Sheet 20-24
+                        </h2>
+                        <div id="aibutton-2">
+                            <h4><a href="https://drive.google.com/file/d/1FKV0Ixe-DwiPCUeGjtIzKNcLef5pwIQm/view?usp=drive_link" target="_blank">Check Sheet</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <img id="page3-1-img2" src="photo/analysis button.png" alt="">
+            </div>
+            <img id="mob-elem-black-box" src="photo/analysis button.png" alt="">
+                <div id="sec2">
+                    <div id="gol"></div>
+                    <p>HOW DOES IT WORK</p>
+                </div>
+                <div class="swiper mySwiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+                    <div class="swiper-wrapper" id="swiper-wrapper-717940bf4939ffe" aria-live="polite">
+                        <div class="swiper-slide swiper-clide-active" role="group" aria-label="1 / 6" style="margin-left: 50x;">
+                            <img src="photo/Frame 20.png" alt="">
+                            <p><br>STEP 1: <br>Tap Analysis and kickstart your rank journey.</p>
+                        </div>
+                        <div class="swiper-slide swiper-clide-active" role="group" aria-label="2 / 6" style="margin-left: 10px;">
+                            <img src="photo/Frame 23.png" alt="">
+                            <p><br>STEP 2: <br>Meet Tappie, your personalized AI guide to find the best-fit colleges.</p>
+                        </div>
+                        <div class="swiper-slide swiper-clide-active" role="group" aria-label="3 / 6" style="margin-left: 50px;">
+                            <img src="photo/Frame 24.png" alt="">
+                            <p><br>STEP 3: <br>Enjoy 1:1 Mentorship for exclusive, expert guidance tailored to you.</p>
+                        </div>
+                        <div class="swiper-slide swiper-clide-active" role="group" aria-label="4 / 6" style="margin-left: 50px;">
+                            <img src="photo/Frame 21.png" alt="">
+                            <p><br>STEP 4: <br>Explore detailed year-wise analysis sheets and map out your dream college.</p>
+                        </div>
+                        <div class="swiper-slide swiper-clide-active" role="group" aria-label="5 / 6" style="margin-left: 50px;">
+                            <img src="photo/Frame 22.png" alt="">
+                            <p><br>STEP 5: <br>Dive into average rank trends and unlock insights for specific colleges.</p>
+                        </div>
+                        <div class="swiper-slide swiper-clide-active" role="group" aria-label="6 / 6" style="margin-left: 50px;">
+                            <img src="photo/Frame 25.png" alt="">
+                            <p><br>STEP 6: <br>Filter colleges effortlessly by Seats, Branches, Categories, Gender Stats, and more.</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div id="page5">
+        
+        </div>
+        <div id="full-scr">
+            <div id="full-div1">
+                <h4><a href="../aim/aim-index.html">AIM</a></h4>
+                <h4><a href="../analyse/analysis-index.html">ANALYSE</a></h4>
+                <h4><a href="../ask/ask-index.html">ASK</a></h4>
+                <h4><a href="#" onclick="redirectToReact()">ACCOUNT</a></h4>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="shape1"></div>
+        <div id="shape2"></div>
+        <div id="footerupper">
+            <div>
+                <h2>Aim</h2>
+                <h2>Analyse</h2>
+                <h2>Ask</h2>
+            </div>
+            <div id="email">
+                <p>Get industry insights and creative inspiration straight to your inbox.</p>
+                <h6>Email Address</h6>
+            </div>
+        </div>
+        <div id="footerlower">
+            <h1>three-tap</h1>
+        <div>
+            <h5>Copyright © Three-Tap</h5>
+            <h5>X</h5>
+            <h5>Instagram</h5>
+            <h5>LinkedIn</h5>
+        </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="analysis-script.js"></script>
+</body>
+
+</html>
