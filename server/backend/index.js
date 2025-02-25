@@ -31,14 +31,14 @@ app.get("/", (req, res) => {
     res.send("Hello, this is a test response!");
 });
 
-// ✅ Serve frontend in production mode
-if (process.env.NODE_ENV === "production") {
-    app.use(express.static(path.join(__dirname, "/frontend/dist")));
+// // ✅ Serve frontend in production mode
+// if (process.env.NODE_ENV === "production") {
+//     app.use(express.static(path.join(__dirname, "/frontend/dist")));
 
-    app.get("*", (req, res) => {
-        res.sendFile(path.resolve(__dirname, "frontend", "dist", "index.html"));
-    });
-}
+//     app.get("*", (req, res) => {
+//         res.sendFile(path.resolve(__dirname, "frontend", "dist", "index.html"));
+//     });
+// }
 
 app.listen(PORT, () => {
     connectDB();
